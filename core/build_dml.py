@@ -1,6 +1,6 @@
 import os 
 import logging 
-from agents import *
+from core.agents import *
 
 logging.basicConfig(level=logging.INFO)
 
