@@ -1,5 +1,6 @@
 """
-Use format_sql_step(some_text) to format any sql file 
+
+python -m core.format some_file.sql
 """
 import os 
 from core.agents import *
