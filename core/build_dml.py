@@ -28,17 +28,8 @@ def build(file_name, schema_text, step):
     else:
         pass
 
-
+# ADD SCHEMA COLUMN NAMES AND DATA TYPES HERE: 
 schema_text = """
-connector table: stages			connector table: application_stages	
-Column Name	Data Type		Column Name	Data Type
-id	bigint		application_id	bigint
-organization_id	bigint		stage_id	bigint
-name	character varying(1024)		entered_on	timestamp
-order	integer		exited_on	timestamp
-active	boolean		stage_name	character varying
-created_at	timestamp		organization_id	bigint
-updated_at	timestamp			
 
 """
 

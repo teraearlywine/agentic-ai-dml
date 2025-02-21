@@ -1,4 +1,4 @@
-Agentic llm sequence to create fake data using open ai's structured outputs, SQL and more.
+Agentic llm sequence to create fake data using open ai's latest chat GPT model
 
-Automating this in order to scale development for this block project; the end goal is record/sample data that 
+Automating this in order to scale development for various projects, the end goal is record/sample data that 
 I can then query in order to build the data models.
