@@ -17,6 +17,7 @@ def format_sql_step(schema_text):
 
                         Prioritize left-hand side, before column-name, commas. This is a must! 
                         Prioritize ALL CAPS for SQL statements. 
+                        Prioritize lower-case and snake case for column alias names
                         Prioritize using correct syntax for data types, if a user provides a wrong data type adjust. 
                         IE if bigint is provided, but snowflake datawarehouse only understands NUMBERS;
                         Please just output the stylized SQL. No markdown please
