@@ -1,4 +1,6 @@
 """
+FORMAT - Independently formats SQL in the event you would like things to be structured 
+outside of create/insert DML statements.
 
 python -m core.format some_file.sql
 """

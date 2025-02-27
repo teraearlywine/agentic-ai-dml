@@ -1,3 +1,11 @@
+"""
+BUILD DML 
+---------
+
+Run this to build your DML statement. 
+
+"""
+
 import os 
 import logging 
 from core.agents import *
@@ -29,8 +37,13 @@ def build(file_name, schema_text, step):
         pass
 
 # ADD SCHEMA COLUMN NAMES AND DATA TYPES HERE: 
+# TODO: TURN INTO CLI TOOL ? 
 schema_text = """
-
+Column Name	Data Type	Description
+id	INT	Primary Key of table
+created_dt	DATE	Date record was loaded
+updated_dt	DATE	Date record was updated
+attribute	VARCHAR	Table attribute or context of entity being included for modeling. (ie. summary stats etc.
 """
 
 create_table_file = 'create_table.sql'
