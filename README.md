@@ -16,6 +16,3 @@ The SQL built:
 
 > **Note**: A schema is the complete list of columns that form the structure of a database table. We’re providing these names, descriptions, and data types to the LLM—no real data needed.
 
-## Prompt Engineering as an Alternative
-
-If you want highly tailored synthetic data that follows best practices in data modeling, you can go the route of detailed prompt engineering. For instance:
